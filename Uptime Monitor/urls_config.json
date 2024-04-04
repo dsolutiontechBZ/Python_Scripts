@@ -1,0 +1,15 @@
+[
+    {
+        "url": "192.168.20.7",
+        "name": "This is how you format ICMP-Replace everything within quotes with your PING name"
+    },
+    {
+        "url": "192.168.20.3:8090",
+        "name": "This is how you format TCP ping-Replace everything within quotes with your PING name"
+    },
+    {
+        "url": "https://www.facebook.com",
+        "name": "Facebook",
+        "keyword": "This is how to format KEYWORD check-Replace everything within quotes with your keyword"
+    }
+]
