@@ -7,6 +7,26 @@ import datetime
 import subprocess
 import json
 
+def header_info():
+    header = """
+     _____            _       _   _          _______        _
+    |  __ \          | |     | | (_)        |__   __|      | |
+    | |  | |___  ___ | |_   _| |_ _  ___  _ __ | | ___  ___| |__
+    | |  | / __|/ _ \| | | | | __| |/ _ \| '_ \| |/ _ \/ __| '_ \\
+    | |__| \__ \ (_) | | |_| | |_| | (_) | | | | |  __/ (__| | | |
+    |_____/|___/\___/|_|\__,_|\__|_|\___/|_| |_|_|\___|\___|_| |_|
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|M|o||n|i|t|o||r|_|U|p|t|i|m|e|
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    """
+    print(header)
+
+# Call the header_info function
+header_info()
+
+print("Executing script..............")
+
 # Function to send messages via WhatsApp API
 def send_message(message):
     # Add the API key and chat IDs here
